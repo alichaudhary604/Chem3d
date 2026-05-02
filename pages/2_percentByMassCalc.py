@@ -6,7 +6,7 @@ from collections import Counter
 st.set_page_config(page_title="Chem Calculator", layout="wide")
 st.title("molar % by mass")
 
-smiles = st.text_input("Enter SMILES (e.g., C6H12O6 for Glucose):", "C6H12O6")
+smiles = st.text_input("Enter SMILES (e.g., C6H12O6 for Glucose):", "O")
 
 if smiles:
     try:
