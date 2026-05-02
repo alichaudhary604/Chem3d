@@ -48,7 +48,8 @@ if smiles:
         st.divider()
         st.markdown(f"""
         **Exam Cheat Sheet for {formula}:**
-        * To go from mol/dm3 to g/dm3, multiply for Mr. Oppositely, divide by Mr for g/dm3 to mol/dm3
+        * To go from mol/dm3 to g/dm3, multiply for Mr. 
+        * Oppositely, divide by Mr for g/dm3 to mol/dm3
         """)
 
     except Exception as e:
