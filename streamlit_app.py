@@ -22,7 +22,7 @@ st.subheader("Available Tools")
 st.subheader("Ideas for future features should be told to me -Ali")
 st.markdown("""
 - **3D Visualizer:** View any molecule in 3D using SMILES.
-- **Molar%ByMass* Calculator
+- **Molar%ByMass** Calculator
 - **Concentration converter** mol/dm3 to g/dm3
 - **Interactive Periodic Table**
 """)
