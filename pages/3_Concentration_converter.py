@@ -3,7 +3,7 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 st.set_page_config(page_title="Unit Converter", layout="wide")
-st.title("🔄 Concentration Unit Converter -Ali")
+st.title("🔄 Concentration Unit Converter ")
 
 # 1. Molecule Input
 smiles = st.text_input("Enter Molecule (SMILES):", "O=C=O")
