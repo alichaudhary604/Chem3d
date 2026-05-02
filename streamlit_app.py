@@ -15,12 +15,13 @@ st.title("Ali's Chem Toolkit")
 st.write("Select a tool from the sidebar to get started.")
 
 st.info("This toolkit was designed to assist with Chemistry revision and visualization.")
-st.info("ideas for future features should be told to Ali Chaudhary")
+
 
 #button shortcuts
 st.subheader("Available Tools")
+st.subheader("Ideas for future features should be told to me -Ali")
 st.markdown("""
 - **3D Visualizer:** View any molecule in 3D using SMILES.
-- **Molar Mass Calculator:** (Coming Soon)
-- **Reaction Predictor:** (Coming Soon)
+- Unit converters (coming soon)
+- regular calculator (probably tomorrow)
 """)
