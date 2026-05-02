@@ -3,10 +3,10 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 st.set_page_config(page_title="Unit Converter", layout="wide")
-st.title("🔄 Concentration Unit Converter")
+st.title("🔄 Concentration Unit Converter -Ali")
 
 # 1. Molecule Input
-smiles = st.text_input("Enter Molecule (SMILES):", "NaOH")
+smiles = st.text_input("Enter Molecule (SMILES):", "O=C=O")
 
 if smiles:
     try:
@@ -22,7 +22,7 @@ if smiles:
         with col1:
             input_unit = st.selectbox(
                 "I have concentration in:",
-                ["g/dm³ (Grams per decimetre cubed)", "mol/dm³ (Molarity)"]
+                ["g/dm³ (Grams per decimetre cubed)", "mol/dm³ (Moles per decimetre cubed)"]
             )
             value = st.number_input("Enter value:", value=1.0, step=0.1)
 
@@ -48,8 +48,7 @@ if smiles:
         st.divider()
         st.markdown(f"""
         **Exam Cheat Sheet for {formula}:**
-        * To get **mol/dm³**: Take your $g/dm^3$ and **divide** by {molar_mass:.2f}.
-        * To get **g/dm³**: Take your $mol/dm^3$ and **multiply** by {molar_mass:.2f}.
+        * To go from mol/dm3 to g/dm3, multiply for Mr. Oppositely, divide by Mr for g/dm3 to mol/dm3
         """)
 
     except Exception as e:
