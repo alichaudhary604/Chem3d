@@ -2,6 +2,8 @@ import streamlit as st
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 from collections import Counter
+from style_utils import apply_theme
+apply_theme()
 
 st.set_page_config(page_title="Chem Calculator", layout="wide")
 st.title("molar % by mass")
