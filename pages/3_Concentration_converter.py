@@ -1,6 +1,8 @@
 import streamlit as st
 from rdkit import Chem
 from rdkit.Chem import Descriptors
+from style_utils import apply_theme
+apply_theme()
 
 st.set_page_config(page_title="Unit Converter", layout="wide")
 st.title("🔄 Concentration Unit Converter ")
