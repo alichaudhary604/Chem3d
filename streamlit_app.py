@@ -8,6 +8,8 @@ Original file is located at
 """
 
 import streamlit as st
+from style_utils import apply_theme
+apply_theme()
 
 st.set_page_config(page_title="Greenshaw Chem Toolkit", layout="wide")
 
