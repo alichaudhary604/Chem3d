@@ -25,6 +25,8 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 import py3Dmol
 from stmol import showmol
+from style_utils import apply_theme
+apply_theme()
 
 #standard imports
 
