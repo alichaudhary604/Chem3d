@@ -23,5 +23,5 @@ st.subheader("Ideas for future features should be told to me -Ali")
 st.markdown("""
 - **3D Visualizer:** View any molecule in 3D using SMILES.
 - Unit converters (coming soon)
-- regular calculator (probably tomorrow)
+- molar mass calculator(just finished)
 """)
