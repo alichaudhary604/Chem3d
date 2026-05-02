@@ -1,7 +1,7 @@
 # Chem3d
 
 You can run this in browser here
-https://chem3d-gpfh382n8vjhrcsv9uoiqf.streamlit.app/
+https://chem3d-akwlxcft8ildjqe4gxgrsv.streamlit.app/
 
 A python script to create 3d renditions of models using a ball and stick diagram
 
