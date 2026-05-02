@@ -12,8 +12,7 @@ License: MIT
 #Single bonds are assumed like 'CO'
 # use = for double bonds or # for triple bonds
 
-!pip install rdkit
-!pip install rdkit py3Dmol
+
 from rdkit import Chem
 from rdkit.Chem import AllChem
 import py3Dmol
